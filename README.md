@@ -5,7 +5,11 @@ Terceiro trabalho para a disciplina de Sistemas Distribuídos da Universidade Fe
 
 ## Início
 
-O trabalho consiste em um servidor assíncrono, utilizando Python Tornado, e clientes bloqueantes, utilizando uma implementação básica com o `pika`. 
+O trabalho consiste em uma implementação de integração com o RabbitMQ. Ou seja, servidor assíncrono, utilizando Python Tornado, consumidor e clientes bloqueantes, publicadores, utilizando uma implementação básica com o `pika`.
+
+<p align="center">
+  <img src="https://ichef.bbci.co.uk/images/ic/1280xn/p07ppctk.jpg" alt="Rabbit"/>
+</p>
 
 Como solicitado na avaliação, foram desenvolvidos quatro tipos de clientes. Sendo estes escolhidos no ato da chamada do `client.py`, na raiz do projeto. 
 
