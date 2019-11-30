@@ -18,9 +18,22 @@ Para fazer a instalação das dependências do projeto, aconselho a utilização
 pip install -r requirements.txt
 ```
 
-Feito a instalação das dependências mínimas, dê um *up* no Servidor:
+Antes de instanciar o cliente e o servidor, é necessário definir uma variável de ambiente que contenha a URL para o broker do **RabbitMQ**. P.e.:
+
+```
+export URL_AMQP=amqp://<user>:<password>@<address>
+```
+
+Feito a instalação das dependências mínimas e a definição da URL do broker, dê um *up* no Servidor:
+
 ```
 python main.py
+```
+
+E um *up* no Cliente:
+
+```
+python client -t <tipo>
 ```
 
 
